@@ -1,0 +1,936 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<meta name='robots' content='noindex, follow' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v19.5.1 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Page not found - The Logistix Company</title>
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:title" content="Page not found - The Logistix Company" />
+	<meta property="og:site_name" content="The Logistix Company" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.thelogistixco.com/#website","url":"https://www.thelogistixco.com/","name":"The Logistix Company","description":"FAST FREIGHT WITH TLC","publisher":{"@id":"https://www.thelogistixco.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.thelogistixco.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://www.thelogistixco.com/#organization","name":"The Logistix Company","url":"https://www.thelogistixco.com/","sameAs":[],"logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.thelogistixco.com/#/schema/logo/image/","url":"https://www.thelogistixco.com/wp-content/uploads/2016/03/In-line-1.png","contentUrl":"https://www.thelogistixco.com/wp-content/uploads/2016/03/In-line-1.png","caption":"The Logistix Company"},"image":{"@id":"https://www.thelogistixco.com/#/schema/logo/image/"}}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//ws.sharethis.com' />
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="The Logistix Company &raquo; Feed" href="https://www.thelogistixco.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="The Logistix Company &raquo; Comments Feed" href="https://www.thelogistixco.com/comments/feed/" />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"wpemoji":"https:\/\/www.thelogistixco.com\/wp-includes\/js\/wp-emoji.js?ver=6.0.2","twemoji":"https:\/\/www.thelogistixco.com\/wp-includes\/js\/twemoji.js?ver=6.0.2"}};
+/**
+ * @output wp-includes/js/wp-emoji-loader.js
+ */
+
+( function( window, document, settings ) {
+	var src, ready, ii, tests;
+
+	// Create a canvas element for testing native browser support of emoji.
+	var canvas = document.createElement( 'canvas' );
+	var context = canvas.getContext && canvas.getContext( '2d' );
+
+	/**
+	 * Checks if two sets of Emoji characters render the same visually.
+	 *
+	 * @since 4.9.0
+	 *
+	 * @private
+	 *
+	 * @param {number[]} set1 Set of Emoji character codes.
+	 * @param {number[]} set2 Set of Emoji character codes.
+	 *
+	 * @return {boolean} True if the two sets render the same.
+	 */
+	function emojiSetsRenderIdentically( set1, set2 ) {
+		var stringFromCharCode = String.fromCharCode;
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set1 ), 0, 0 );
+		var rendered1 = canvas.toDataURL();
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set2 ), 0, 0 );
+		var rendered2 = canvas.toDataURL();
+
+		return rendered1 === rendered2;
+	}
+
+	/**
+	 * Detects if the browser supports rendering emoji or flag emoji.
+	 *
+	 * Flag emoji are a single glyph made of two characters, so some browsers
+	 * (notably, Firefox OS X) don't support them.
+	 *
+	 * @since 4.2.0
+	 *
+	 * @private
+	 *
+	 * @param {string} type Whether to test for support of "flag" or "emoji".
+	 *
+	 * @return {boolean} True if the browser can render emoji, false if it cannot.
+	 */
+	function browserSupportsEmoji( type ) {
+		var isIdentical;
+
+		if ( ! context || ! context.fillText ) {
+			return false;
+		}
+
+		/*
+		 * Chrome on OS X added native emoji rendering in M41. Unfortunately,
+		 * it doesn't work when the font is bolder than 500 weight. So, we
+		 * check for bold rendering support to avoid invisible emoji in Chrome.
+		 */
+		context.textBaseline = 'top';
+		context.font = '600 32px Arial';
+
+		switch ( type ) {
+			case 'flag':
+				/*
+				 * Test for Transgender flag compatibility. This flag is shortlisted for the Emoji 13 spec,
+				 * but has landed in Twemoji early, so we can add support for it, too.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly (white flag emoji + transgender symbol).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 0x1F3F3, 0xFE0F, 0x200D, 0x26A7, 0xFE0F ],
+					[ 0x1F3F3, 0xFE0F, 0x200B, 0x26A7, 0xFE0F ]
+				);
+
+				if ( isIdentical ) {
+					return false;
+				}
+
+				/*
+				 * Test for UN flag compatibility. This is the least supported of the letter locale flags,
+				 * so gives us an easy test for full support.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly ([U] + [N]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 0xD83C, 0xDDFA, 0xD83C, 0xDDF3 ],
+					[ 0xD83C, 0xDDFA, 0x200B, 0xD83C, 0xDDF3 ]
+				);
+
+				if ( isIdentical ) {
+					return false;
+				}
+
+				/*
+				 * Test for English flag compatibility. England is a country in the United Kingdom, it
+				 * does not have a two letter locale code but rather an five letter sub-division code.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly (black flag emoji + [G] + [B] + [E] + [N] + [G]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 0xD83C, 0xDFF4, 0xDB40, 0xDC67, 0xDB40, 0xDC62, 0xDB40, 0xDC65, 0xDB40, 0xDC6E, 0xDB40, 0xDC67, 0xDB40, 0xDC7F ],
+					[ 0xD83C, 0xDFF4, 0x200B, 0xDB40, 0xDC67, 0x200B, 0xDB40, 0xDC62, 0x200B, 0xDB40, 0xDC65, 0x200B, 0xDB40, 0xDC6E, 0x200B, 0xDB40, 0xDC67, 0x200B, 0xDB40, 0xDC7F ]
+				);
+
+				return ! isIdentical;
+			case 'emoji':
+				/*
+				 * Why can't we be friends? Everyone can now shake hands in emoji, regardless of skin tone!
+				 *
+				 * To test for Emoji 14.0 support, try to render a new emoji: Handshake: Light Skin Tone, Dark Skin Tone.
+				 *
+				 * The Handshake: Light Skin Tone, Dark Skin Tone emoji is a ZWJ sequence combining 🫱 Rightwards Hand,
+				 * 🏻 Light Skin Tone, a Zero Width Joiner, 🫲 Leftwards Hand, and 🏿 Dark Skin Tone.
+				 *
+				 * 0x1FAF1 == Rightwards Hand
+				 * 0x1F3FB == Light Skin Tone
+				 * 0x200D == Zero-Width Joiner (ZWJ) that links the code points for the new emoji or
+				 * 0x200B == Zero-Width Space (ZWS) that is rendered for clients not supporting the new emoji.
+				 * 0x1FAF2 == Leftwards Hand
+				 * 0x1F3FF == Dark Skin Tone.
+				 *
+				 * When updating this test for future Emoji releases, ensure that individual emoji that make up the
+				 * sequence come from older emoji standards.
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[0x1FAF1, 0x1F3FB, 0x200D, 0x1FAF2, 0x1F3FF],
+					[0x1FAF1, 0x1F3FB, 0x200B, 0x1FAF2, 0x1F3FF]
+				);
+
+				return ! isIdentical;
+		}
+
+		return false;
+	}
+
+	/**
+	 * Adds a script to the head of the document.
+	 *
+	 * @ignore
+	 *
+	 * @since 4.2.0
+	 *
+	 * @param {Object} src The url where the script is located.
+	 * @return {void}
+	 */
+	function addScript( src ) {
+		var script = document.createElement( 'script' );
+
+		script.src = src;
+		script.defer = script.type = 'text/javascript';
+		document.getElementsByTagName( 'head' )[0].appendChild( script );
+	}
+
+	tests = Array( 'flag', 'emoji' );
+
+	settings.supports = {
+		everything: true,
+		everythingExceptFlag: true
+	};
+
+	/*
+	 * Tests the browser support for flag emojis and other emojis, and adjusts the
+	 * support settings accordingly.
+	 */
+	for( ii = 0; ii < tests.length; ii++ ) {
+		settings.supports[ tests[ ii ] ] = browserSupportsEmoji( tests[ ii ] );
+
+		settings.supports.everything = settings.supports.everything && settings.supports[ tests[ ii ] ];
+
+		if ( 'flag' !== tests[ ii ] ) {
+			settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && settings.supports[ tests[ ii ] ];
+		}
+	}
+
+	settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && ! settings.supports.flag;
+
+	// Sets DOMReady to false and assigns a ready function to settings.
+	settings.DOMReady = false;
+	settings.readyCallback = function() {
+		settings.DOMReady = true;
+	};
+
+	// When the browser can not render everything we need to load a polyfill.
+	if ( ! settings.supports.everything ) {
+		ready = function() {
+			settings.readyCallback();
+		};
+
+		/*
+		 * Cross-browser version of adding a dom ready event.
+		 */
+		if ( document.addEventListener ) {
+			document.addEventListener( 'DOMContentLoaded', ready, false );
+			window.addEventListener( 'load', ready, false );
+		} else {
+			window.attachEvent( 'onload', ready );
+			document.attachEvent( 'onreadystatechange', function() {
+				if ( 'complete' === document.readyState ) {
+					settings.readyCallback();
+				}
+			} );
+		}
+
+		src = settings.source || {};
+
+		if ( src.concatemoji ) {
+			addScript( src.concatemoji );
+		} else if ( src.wpemoji && src.twemoji ) {
+			addScript( src.twemoji );
+			addScript( src.wpemoji );
+		}
+	}
+
+} )( window, document, window._wpemojiSettings );
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://www.thelogistixco.com/wp-includes/css/dist/block-library/style.css?ver=6.0.2'  media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel='stylesheet' id='ctct_form_styles-css'  href='https://www.thelogistixco.com/wp-content/plugins/constant-contact-forms/assets/css/style.css?ver=1.13.0'  media='all' />
+<link rel='stylesheet' id='simple-share-buttons-adder-font-awesome-css'  href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css?ver=8.2.6'  media='all' />
+<link rel='stylesheet' id='awsm-jobs-general-css'  href='https://www.thelogistixco.com/wp-content/plugins/wp-job-openings/assets/css/general.min.css?ver=3.3.1'  media='all' />
+<link rel='stylesheet' id='awsm-jobs-style-css'  href='https://www.thelogistixco.com/wp-content/plugins/wp-job-openings/assets/css/style.min.css?ver=3.3.1'  media='all' />
+<link rel='stylesheet' id='hello-elementor-css'  href='https://www.thelogistixco.com/wp-content/themes/hello-elementor/style.css?ver=2.5.0'  media='all' />
+<link rel='stylesheet' id='hello-elementor-theme-style-css'  href='https://www.thelogistixco.com/wp-content/themes/hello-elementor/theme.css?ver=2.5.0'  media='all' />
+<link rel='stylesheet' id='elementor-icons-css'  href='https://www.thelogistixco.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.css?ver=5.16.0'  media='all' />
+<link rel='stylesheet' id='elementor-frontend-legacy-css'  href='https://www.thelogistixco.com/wp-content/plugins/elementor/assets/css/frontend-legacy.css?ver=3.7.1'  media='all' />
+<link rel='stylesheet' id='elementor-frontend-css'  href='https://www.thelogistixco.com/wp-content/plugins/elementor/assets/css/frontend.css?ver=3.7.1'  media='all' />
+<link rel='stylesheet' id='elementor-post-1293-css'  href='https://www.thelogistixco.com/wp-content/uploads/elementor/css/post-1293.css?ver=1660660285'  media='all' />
+<link rel='stylesheet' id='elementor-pro-css'  href='https://www.thelogistixco.com/wp-content/plugins/elementor-pro/assets/css/frontend.css?ver=3.7.3'  media='all' />
+<link rel='stylesheet' id='ooohboi-steroids-styles-css'  href='https://www.thelogistixco.com/wp-content/plugins/ooohboi-steroids-for-elementor/assets/css/main.css?ver=2.0.007072022'  media='all' />
+<link rel='stylesheet' id='elementor-post-1296-css'  href='https://www.thelogistixco.com/wp-content/uploads/elementor/css/post-1296.css?ver=1660660285'  media='all' />
+<link rel='stylesheet' id='elementor-post-1313-css'  href='https://www.thelogistixco.com/wp-content/uploads/elementor/css/post-1313.css?ver=1660660285'  media='all' />
+<link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Raleway%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COpen+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.0.2'  media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css'  href='https://www.thelogistixco.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.css?ver=5.15.3'  media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-solid-css'  href='https://www.thelogistixco.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.css?ver=5.15.3'  media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-brands-css'  href='https://www.thelogistixco.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.css?ver=5.15.3'  media='all' />
+<script  src='https://www.thelogistixco.com/wp-includes/js/jquery/jquery.js?ver=3.6.0' id='jquery-core-js'></script>
+<script  src='https://www.thelogistixco.com/wp-includes/js/jquery/jquery-migrate.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script  src='https://www.thelogistixco.com/wp-content/plugins/js-support-ticket/includes/js/common.js?ver=6.0.2' id='commonjs-js'></script>
+<script  src='https://www.thelogistixco.com/wp-content/plugins/js-support-ticket/includes/js/responsivetable.js?ver=6.0.2' id='responsivetablejs-js'></script>
+<script  src='https://www.thelogistixco.com/wp-content/plugins/js-support-ticket/includes/js/jquery.form-validator.js?ver=6.0.2' id='jsst-formvalidator-js'></script>
+<script  id='jsst-formvalidator-js-after'>
+        jQuery.formUtils.LANG = {
+            errorTitle: "Form submission failed!",
+            requiredFields: "You have not answered all required fields",
+            badTime: "You have not given a correct time",
+            badEmail: "You have not given a correct e-mail address",
+            badTelephone: "You have not given a correct phone number",
+            badSecurityAnswer: "You have not given a correct answer to the security question",
+            badDate: "You have not given a correct date",
+            lengthBadStart: "The input value must be between ",
+            lengthBadEnd: " characters",
+            lengthTooLongStart: "The input value is longer than ",
+            lengthTooShortStart: "The input value is shorter than ",
+            notConfirmed: "Input values could not be confirmed",
+            badDomain: "Incorrect domain value",
+            badUrl: "The input value is not a correct URL",
+            badCustomVal: "The input value is incorrect",
+            badInt: "The input value was not a correct number",
+            badSecurityNumber: "Your social security number was incorrect",
+            badUKVatAnswer: "Incorrect UK VAT Number",
+            badStrength: "The password isn't strong enough",
+            badNumberOfSelectedOptionsStart: "You have to choose at least ",
+            badNumberOfSelectedOptionsEnd: " answers",
+            badAlphaNumeric: "The input value can only contain alphanumeric characters ",
+            badAlphaNumericExtra: " and ",
+            wrongFileSize: "The file you are trying to upload is too large",
+            wrongFileType: "The file you are trying to upload is of the wrong type",
+            groupCheckedRangeStart: "Please choose between ",
+            groupCheckedTooFewStart: "Please choose at least ",
+            groupCheckedTooManyStart: "Please choose a maximum of ",
+            groupCheckedEnd: " item(s)",
+            badCreditCard: "The credit card number is not correct",
+            badCVV: "The CVV number was not correct"
+        };
+        
+</script>
+<script id='st_insights_js'  src='https://ws.sharethis.com/button/st_insights.js?publisher=4d48b7c5-0ae3-43d4-bfbe-3ff8c17a8ae6&#038;product=simpleshare&#038;ver=8.2.6' id='ssba-sharethis-js'></script>
+<link rel="https://api.w.org/" href="https://www.thelogistixco.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.thelogistixco.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.thelogistixco.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 6.0.2" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-96321497-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- Bing Search -->
+<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"25006698"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><link rel="icon" href="https://www.thelogistixco.com/wp-content/uploads/2021/02/TLC-logo-Favicon-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://www.thelogistixco.com/wp-content/uploads/2021/02/TLC-logo-Favicon.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.thelogistixco.com/wp-content/uploads/2021/02/TLC-logo-Favicon.png" />
+<meta name="msapplication-TileImage" content="https://www.thelogistixco.com/wp-content/uploads/2021/02/TLC-logo-Favicon.png" />
+</head>
+<body class="error404 wp-custom-logo ctct-hello-elementor elementor-default elementor-kit-1293">
+
+
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		viewBox="0 0 0 0"
+		width="0"
+		height="0"
+		focusable="false"
+		role="none"
+		style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"
+	>
+		<defs>
+			<filter id="wp-duotone-dark-grayscale">
+				<feColorMatrix
+					color-interpolation-filters="sRGB"
+					type="matrix"
+					values="
+						.299 .587 .114 0 0
+						.299 .587 .114 0 0
+						.299 .587 .114 0 0
+						.299 .587 .114 0 0
+					"
+				/>
+				<feComponentTransfer color-interpolation-filters="sRGB" >
+					<feFuncR type="table" tableValues="0 0.49803921568627" />
+					<feFuncG type="table" tableValues="0 0.49803921568627" />
+					<feFuncB type="table" tableValues="0 0.49803921568627" />
+					<feFuncA type="table" tableValues="1 1" />
+				</feComponentTransfer>
+				<feComposite in2="SourceGraphic" operator="in" />
+			</filter>
+		</defs>
+	</svg>
+
+	
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		viewBox="0 0 0 0"
+		width="0"
+		height="0"
+		focusable="false"
+		role="none"
+		style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"
+	>
+		<defs>
+			<filter id="wp-duotone-grayscale">
+				<feColorMatrix
+					color-interpolation-filters="sRGB"
+					type="matrix"
+					values="
+						.299 .587 .114 0 0
+						.299 .587 .114 0 0
+						.299 .587 .114 0 0
+						.299 .587 .114 0 0
+					"
+				/>
+				<feComponentTransfer color-interpolation-filters="sRGB" >
+					<feFuncR type="table" tableValues="0 1" />
+					<feFuncG type="table" tableValues="0 1" />
+					<feFuncB type="table" tableValues="0 1" />
+					<feFuncA type="table" tableValues="1 1" />
+				</feComponentTransfer>
+				<feComposite in2="SourceGraphic" operator="in" />
+			</filter>
+		</defs>
+	</svg>
+
+	
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		viewBox="0 0 0 0"
+		width="0"
+		height="0"
+		focusable="false"
+		role="none"
+		style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"
+	>
+		<defs>
+			<filter id="wp-duotone-purple-yellow">
+				<feColorMatrix
+					color-interpolation-filters="sRGB"
+					type="matrix"
+					values="
+						.299 .587 .114 0 0
+						.299 .587 .114 0 0
+						.299 .587 .114 0 0
+						.299 .587 .114 0 0
+					"
+				/>
+				<feComponentTransfer color-interpolation-filters="sRGB" >
+					<feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
+					<feFuncG type="table" tableValues="0 1" />
+					<feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
+					<feFuncA type="table" tableValues="1 1" />
+				</feComponentTransfer>
+				<feComposite in2="SourceGraphic" operator="in" />
+			</filter>
+		</defs>
+	</svg>
+
+	
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		viewBox="0 0 0 0"
+		width="0"
+		height="0"
+		focusable="false"
+		role="none"
+		style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"
+	>
+		<defs>
+			<filter id="wp-duotone-blue-red">
+				<feColorMatrix
+					color-interpolation-filters="sRGB"
+					type="matrix"
+					values="
+						.299 .587 .114 0 0
+						.299 .587 .114 0 0
+						.299 .587 .114 0 0
+						.299 .587 .114 0 0
+					"
+				/>
+				<feComponentTransfer color-interpolation-filters="sRGB" >
+					<feFuncR type="table" tableValues="0 1" />
+					<feFuncG type="table" tableValues="0 0.27843137254902" />
+					<feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+					<feFuncA type="table" tableValues="1 1" />
+				</feComponentTransfer>
+				<feComposite in2="SourceGraphic" operator="in" />
+			</filter>
+		</defs>
+	</svg>
+
+	
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		viewBox="0 0 0 0"
+		width="0"
+		height="0"
+		focusable="false"
+		role="none"
+		style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"
+	>
+		<defs>
+			<filter id="wp-duotone-midnight">
+				<feColorMatrix
+					color-interpolation-filters="sRGB"
+					type="matrix"
+					values="
+						.299 .587 .114 0 0
+						.299 .587 .114 0 0
+						.299 .587 .114 0 0
+						.299 .587 .114 0 0
+					"
+				/>
+				<feComponentTransfer color-interpolation-filters="sRGB" >
+					<feFuncR type="table" tableValues="0 0" />
+					<feFuncG type="table" tableValues="0 0.64705882352941" />
+					<feFuncB type="table" tableValues="0 1" />
+					<feFuncA type="table" tableValues="1 1" />
+				</feComponentTransfer>
+				<feComposite in2="SourceGraphic" operator="in" />
+			</filter>
+		</defs>
+	</svg>
+
+	
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		viewBox="0 0 0 0"
+		width="0"
+		height="0"
+		focusable="false"
+		role="none"
+		style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"
+	>
+		<defs>
+			<filter id="wp-duotone-magenta-yellow">
+				<feColorMatrix
+					color-interpolation-filters="sRGB"
+					type="matrix"
+					values="
+						.299 .587 .114 0 0
+						.299 .587 .114 0 0
+						.299 .587 .114 0 0
+						.299 .587 .114 0 0
+					"
+				/>
+				<feComponentTransfer color-interpolation-filters="sRGB" >
+					<feFuncR type="table" tableValues="0.78039215686275 1" />
+					<feFuncG type="table" tableValues="0 0.94901960784314" />
+					<feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+					<feFuncA type="table" tableValues="1 1" />
+				</feComponentTransfer>
+				<feComposite in2="SourceGraphic" operator="in" />
+			</filter>
+		</defs>
+	</svg>
+
+	
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		viewBox="0 0 0 0"
+		width="0"
+		height="0"
+		focusable="false"
+		role="none"
+		style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"
+	>
+		<defs>
+			<filter id="wp-duotone-purple-green">
+				<feColorMatrix
+					color-interpolation-filters="sRGB"
+					type="matrix"
+					values="
+						.299 .587 .114 0 0
+						.299 .587 .114 0 0
+						.299 .587 .114 0 0
+						.299 .587 .114 0 0
+					"
+				/>
+				<feComponentTransfer color-interpolation-filters="sRGB" >
+					<feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
+					<feFuncG type="table" tableValues="0 1" />
+					<feFuncB type="table" tableValues="0.44705882352941 0.4" />
+					<feFuncA type="table" tableValues="1 1" />
+				</feComponentTransfer>
+				<feComposite in2="SourceGraphic" operator="in" />
+			</filter>
+		</defs>
+	</svg>
+
+	
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		viewBox="0 0 0 0"
+		width="0"
+		height="0"
+		focusable="false"
+		role="none"
+		style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"
+	>
+		<defs>
+			<filter id="wp-duotone-blue-orange">
+				<feColorMatrix
+					color-interpolation-filters="sRGB"
+					type="matrix"
+					values="
+						.299 .587 .114 0 0
+						.299 .587 .114 0 0
+						.299 .587 .114 0 0
+						.299 .587 .114 0 0
+					"
+				/>
+				<feComponentTransfer color-interpolation-filters="sRGB" >
+					<feFuncR type="table" tableValues="0.098039215686275 1" />
+					<feFuncG type="table" tableValues="0 0.66274509803922" />
+					<feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+					<feFuncA type="table" tableValues="1 1" />
+				</feComponentTransfer>
+				<feComposite in2="SourceGraphic" operator="in" />
+			</filter>
+		</defs>
+	</svg>
+
+			<div data-elementor-type="header" data-elementor-id="1296" class="elementor elementor-1296 elementor-location-header">
+					<div class="elementor-section-wrap">
+								<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-86b2ccf elementor-hidden-phone elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="86b2ccf" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-03bbc20" data-id="03bbc20" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-9053a9d elementor-nav-menu__align-center elementor-nav-menu--dropdown-none ob-has-background-overlay elementor-widget elementor-widget-nav-menu" data-id="9053a9d" data-element_type="widget" data-settings="{&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;&quot;},&quot;layout&quot;:&quot;horizontal&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+						<nav migration_allowed="1" migrated="0" role="navigation" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade">
+				<ul id="menu-1-9053a9d" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1498"><a href="/" class="elementor-item">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1302"><a href="https://www.thelogistixco.com/about-us/" class="elementor-item">About Us</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2020"><a href="https://www.thelogistixco.com/events/" class="elementor-sub-item">Events &#038; Tradeshows</a></li>
+</ul>
+</li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>			<span class="elementor-screen-only">Menu</span>
+		</div>
+			<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" role="navigation" aria-hidden="true">
+				<ul id="menu-2-9053a9d" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1498"><a href="/" class="elementor-item" tabindex="-1">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1302"><a href="https://www.thelogistixco.com/about-us/" class="elementor-item" tabindex="-1">About Us</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2020"><a href="https://www.thelogistixco.com/events/" class="elementor-sub-item" tabindex="-1">Events &#038; Tradeshows</a></li>
+</ul>
+</li>
+</ul>			</nav>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-31c4762" data-id="31c4762" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-af109bc ob-has-background-overlay elementor-widget elementor-widget-image" data-id="af109bc" data-element_type="widget" data-settings="{&quot;_ob_photomorph_use&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+													<a href="/">
+							<img width="800" height="130" src="https://www.thelogistixco.com/wp-content/uploads/2016/11/LOGISTIX-CO-line-1024x166.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://www.thelogistixco.com/wp-content/uploads/2016/11/LOGISTIX-CO-line-1024x166.png 1024w, https://www.thelogistixco.com/wp-content/uploads/2016/11/LOGISTIX-CO-line-300x49.png 300w, https://www.thelogistixco.com/wp-content/uploads/2016/11/LOGISTIX-CO-line-768x125.png 768w" sizes="(max-width: 800px) 100vw, 800px" />								</a>
+														</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-7bc23b2" data-id="7bc23b2" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-87a0339 elementor-nav-menu__align-center elementor-nav-menu--dropdown-none ob-has-background-overlay elementor-widget elementor-widget-nav-menu" data-id="87a0339" data-element_type="widget" data-settings="{&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-chevron-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;layout&quot;:&quot;horizontal&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+						<nav migration_allowed="1" migrated="0" role="navigation" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade">
+				<ul id="menu-1-87a0339" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1304"><a href="https://www.thelogistixco.com/contact-us/" class="elementor-item">Contact Us</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1998"><a href="https://www.thelogistixco.com/careers/" class="elementor-sub-item">Careers</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1728"><a href="https://www.thelogistixco.com/embark/" class="elementor-item">Embark</a></li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>			<span class="elementor-screen-only">Menu</span>
+		</div>
+			<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" role="navigation" aria-hidden="true">
+				<ul id="menu-2-87a0339" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1304"><a href="https://www.thelogistixco.com/contact-us/" class="elementor-item" tabindex="-1">Contact Us</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1998"><a href="https://www.thelogistixco.com/careers/" class="elementor-sub-item" tabindex="-1">Careers</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1728"><a href="https://www.thelogistixco.com/embark/" class="elementor-item" tabindex="-1">Embark</a></li>
+</ul>			</nav>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-f7fb869 elementor-hidden-desktop elementor-hidden-tablet elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f7fb869" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1655806" data-id="1655806" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-92e5a8c ob-has-background-overlay elementor-widget elementor-widget-image" data-id="92e5a8c" data-element_type="widget" data-settings="{&quot;_ob_photomorph_use&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+													<a href="/">
+							<img width="800" height="130" src="https://www.thelogistixco.com/wp-content/uploads/2016/11/LOGISTIX-CO-line-1024x166.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://www.thelogistixco.com/wp-content/uploads/2016/11/LOGISTIX-CO-line-1024x166.png 1024w, https://www.thelogistixco.com/wp-content/uploads/2016/11/LOGISTIX-CO-line-300x49.png 300w, https://www.thelogistixco.com/wp-content/uploads/2016/11/LOGISTIX-CO-line-768x125.png 768w" sizes="(max-width: 800px) 100vw, 800px" />								</a>
+														</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ec274ad" data-id="ec274ad" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-246c70b elementor-nav-menu__align-right elementor-nav-menu--dropdown-mobile elementor-nav-menu--stretch elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger ob-has-background-overlay elementor-widget elementor-widget-nav-menu" data-id="246c70b" data-element_type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;&quot;},&quot;layout&quot;:&quot;horizontal&quot;,&quot;toggle&quot;:&quot;burger&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+						<nav migration_allowed="1" migrated="0" role="navigation" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade">
+				<ul id="menu-1-246c70b" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1499"><a href="/" class="elementor-item">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1309"><a href="https://www.thelogistixco.com/about-us/" class="elementor-item">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1310"><a href="https://www.thelogistixco.com/contact-us/" class="elementor-item">Contact Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1727"><a href="https://www.thelogistixco.com/embark/" class="elementor-item">Embark</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1994"><a href="https://www.thelogistixco.com/careers/" class="elementor-item">Careers</a></li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>			<span class="elementor-screen-only">Menu</span>
+		</div>
+			<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" role="navigation" aria-hidden="true">
+				<ul id="menu-2-246c70b" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1499"><a href="/" class="elementor-item" tabindex="-1">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1309"><a href="https://www.thelogistixco.com/about-us/" class="elementor-item" tabindex="-1">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1310"><a href="https://www.thelogistixco.com/contact-us/" class="elementor-item" tabindex="-1">Contact Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1727"><a href="https://www.thelogistixco.com/embark/" class="elementor-item" tabindex="-1">Embark</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1994"><a href="https://www.thelogistixco.com/careers/" class="elementor-item" tabindex="-1">Careers</a></li>
+</ul>			</nav>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+							</div>
+				</div>
+		<main id="content" class="site-main" role="main">
+			<header class="page-header">
+			<h1 class="entry-title">The page can&rsquo;t be found.</h1>
+		</header>
+		<div class="page-content">
+		<p>It looks like nothing was found at this location.</p>
+	</div>
+
+</main>
+
+<script nitro-exclude>
+    var heartbeatData = new FormData(); heartbeatData.append('nitroHeartbeat', '1');
+    fetch(location.href, {method: 'POST', body: heartbeatData, credentials: 'omit'});
+</script>
+<script nitro-exclude>
+    document.cookie = 'nitroCachedPage=' + (!window.NITROPACK_STATE ? '0' : '1') + '; path=/';
+</script>		<div data-elementor-type="footer" data-elementor-id="1313" class="elementor elementor-1313 elementor-location-footer">
+					<div class="elementor-section-wrap">
+								<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-bb10350 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="bb10350" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e0be085" data-id="e0be085" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-215b5e5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="215b5e5" data-element_type="section" data-settings="{&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-2e9a0fb" data-id="2e9a0fb" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-721afd0 ob-has-background-overlay elementor-widget elementor-widget-image" data-id="721afd0" data-element_type="widget" data-settings="{&quot;_ob_photomorph_use&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+												<img width="800" height="130" src="https://www.thelogistixco.com/wp-content/uploads/2016/11/LOGISTIX-CO-line-1024x166.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://www.thelogistixco.com/wp-content/uploads/2016/11/LOGISTIX-CO-line-1024x166.png 1024w, https://www.thelogistixco.com/wp-content/uploads/2016/11/LOGISTIX-CO-line-300x49.png 300w, https://www.thelogistixco.com/wp-content/uploads/2016/11/LOGISTIX-CO-line-768x125.png 768w" sizes="(max-width: 800px) 100vw, 800px" />														</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-f4830e7 ob-harakiri-inherit ob-has-background-overlay elementor-widget elementor-widget-text-editor" data-id="f4830e7" data-element_type="widget" data-settings="{&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_postman_use&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<p>Our mission is to provide the highest quality freight services with extra TLC to our customers. We take pride in our custom database of vetted and certified reputable carriers sourced from experienced carriers.</p>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-168d9e3" data-id="168d9e3" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-5ef0873 elementor-nav-menu--dropdown-none ob-has-background-overlay elementor-widget elementor-widget-nav-menu" data-id="5ef0873" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;&quot;},&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+						<nav migration_allowed="1" migrated="0" role="navigation" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
+				<ul id="menu-1-5ef0873" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1499"><a href="/" class="elementor-item">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1309"><a href="https://www.thelogistixco.com/about-us/" class="elementor-item">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1310"><a href="https://www.thelogistixco.com/contact-us/" class="elementor-item">Contact Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1727"><a href="https://www.thelogistixco.com/embark/" class="elementor-item">Embark</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1994"><a href="https://www.thelogistixco.com/careers/" class="elementor-item">Careers</a></li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>			<span class="elementor-screen-only">Menu</span>
+		</div>
+			<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" role="navigation" aria-hidden="true">
+				<ul id="menu-2-5ef0873" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1499"><a href="/" class="elementor-item" tabindex="-1">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1309"><a href="https://www.thelogistixco.com/about-us/" class="elementor-item" tabindex="-1">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1310"><a href="https://www.thelogistixco.com/contact-us/" class="elementor-item" tabindex="-1">Contact Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1727"><a href="https://www.thelogistixco.com/embark/" class="elementor-item" tabindex="-1">Embark</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1994"><a href="https://www.thelogistixco.com/careers/" class="elementor-item" tabindex="-1">Careers</a></li>
+</ul>			</nav>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-fb689d5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="fb689d5" data-element_type="section" data-settings="{&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-9289925" data-id="9289925" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-49ee918 e-grid-align-left elementor-shape-rounded elementor-grid-0 ob-has-background-overlay elementor-widget elementor-widget-social-icons" data-id="49ee918" data-element_type="widget" data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-social-icons-wrapper elementor-grid">
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-9d44f75" href="https://www.facebook.com/TheLogistixCo/" target="_blank">
+						<span class="elementor-screen-only">Facebook</span>
+						<i class="fab fa-facebook"></i>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-06c6dda" href="https://www.linkedin.com/company/the-logistix-company/" target="_blank">
+						<span class="elementor-screen-only">Linkedin</span>
+						<i class="fab fa-linkedin"></i>					</a>
+				</span>
+					</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-7d65042" data-id="7d65042" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+			<div class="elementor-column-wrap">
+							<div class="elementor-widget-wrap">
+								</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+							</div>
+				</div>
+		
+<!-- HFCM by 99 Robots - Snippet # 1: WebTrax -->
+<!-- Begin WebTrax -->
+<script type="text/javascript">
+var wto = wto || [];
+wto.push(['setWTID', 'wt-87a3e472-4464-4698-bc04-3eef2cb6d310']);
+wto.push(['webTraxs']);
+(function() {
+var wt = document.createElement('script');
+wt.src = document.location.protocol + '//www.webtraxs.com/wt.php';
+wt.type = 'text/javascript';
+wt.async = true;
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(wt, s);
+})();
+</script>
+<noscript><img src="https://www.webtraxs.com/webtraxs.php?id=wt-87a3e472-4464-4698-bc04-3eef2cb6d310&st=img" alt="" /></noscript>
+<!-- End WebTrax -->
+<!-- /end HFCM by 99 Robots -->
+<script type="text/javascript" src=https://secure.leadforensics.com/js/121868.js ></script> 
+<noscript><img alt="" src=https://secure.leadforensics.com/121868.png style="display:none;" /></noscript><link rel='stylesheet' id='jssupportticket-main-css-css'  href='https://www.thelogistixco.com/wp-content/plugins/js-support-ticket/includes/css/style.css?ver=6.0.2'  media='all' />
+<link rel='stylesheet' id='jssupportticket-tablet-css-css'  href='https://www.thelogistixco.com/wp-content/plugins/js-support-ticket/includes/css/style_tablet.css?ver=6.0.2'  media='(min-width: 668px) and (max-width: 782px)' />
+<link rel='stylesheet' id='jssupportticket-mobile-css-css'  href='https://www.thelogistixco.com/wp-content/plugins/js-support-ticket/includes/css/style_mobile.css?ver=6.0.2'  media='(min-width: 481px) and (max-width: 667px)' />
+<link rel='stylesheet' id='jssupportticket-oldmobile-css-css'  href='https://www.thelogistixco.com/wp-content/plugins/js-support-ticket/includes/css/style_oldmobile.css?ver=6.0.2'  media='(max-width: 480px)' />
+<link rel='stylesheet' id='jssupportticket-color-css-css'  href='https://www.thelogistixco.com/wp-content/plugins/js-support-ticket/includes/css/color.css?ver=6.0.2'  media='all' />
+<link rel='stylesheet' id='e-animations-css'  href='https://www.thelogistixco.com/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.7.1'  media='all' />
+<script  src='https://www.thelogistixco.com/wp-includes/js/jquery/ui/core.js?ver=1.13.1' id='jquery-ui-core-js'></script>
+<script  src='https://www.thelogistixco.com/wp-includes/js/jquery/ui/accordion.js?ver=1.13.1' id='jquery-ui-accordion-js'></script>
+<script  src='//www.google.com/recaptcha/api.js?render=6LfzufIdAAAAAPPWgXco4dw-Uokzq1ue0r3VJwff&#038;ver=1.13.0' id='recaptcha-lib-js'></script>
+<script  src='https://www.thelogistixco.com/wp-content/plugins/constant-contact-forms/assets/js/ctct-plugin-recaptcha.js?ver=1.13.0' id='recaptcha-v3-js'></script>
+<script  id='recaptcha-v3-js-after'>
+recaptchav3 = {"site_key":"6LfzufIdAAAAAPPWgXco4dw-Uokzq1ue0r3VJwff"}
+</script>
+<script  src='https://www.thelogistixco.com/wp-content/plugins/constant-contact-forms/assets/js/ctct-plugin-frontend.js?ver=1.13.0' id='ctct_frontend_forms-js'></script>
+<script  src='https://www.thelogistixco.com/wp-content/plugins/simple-share-buttons-adder/js/ssba.js?ver=1655230134' id='simple-share-buttons-adder-ssba-js'></script>
+<script  id='simple-share-buttons-adder-ssba-js-after'>
+Main.boot( [] );
+</script>
+<script type='text/javascript' id='awsm-job-scripts-js-extra'>
+/* <![CDATA[ */
+var awsmJobsPublic = {"ajaxurl":"https:\/\/www.thelogistixco.com\/wp-admin\/admin-ajax.php","is_tax_archive":"","is_search":"","job_id":"0","wp_max_upload_size":"268435456","deep_linking":{"search":true,"spec":true,"pagination":true},"i18n":{"loading_text":"Loading...","form_error_msg":{"general":"Error in submitting your application. Please try again later!","file_validation":"The file you have selected is too large."}},"vendors":{"selectric":true,"jquery_validation":true}};
+/* ]]> */
+</script>
+<script  src='https://www.thelogistixco.com/wp-content/plugins/wp-job-openings/assets/js/script.min.js?ver=3.3.1' id='awsm-job-scripts-js'></script>
+<script  src='https://www.thelogistixco.com/wp-content/plugins/ooohboi-steroids-for-elementor/assets/js/ooohboi-steroids.js?ver=2.0.007072022' id='ooohboi-steroids-js'></script>
+<script  src='https://www.thelogistixco.com/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.js?ver=1.0.1' id='smartmenus-js'></script>
+<script  src='https://www.thelogistixco.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.js?ver=3.7.3' id='elementor-pro-webpack-runtime-js'></script>
+<script  src='https://www.thelogistixco.com/wp-content/plugins/elementor/assets/js/webpack.runtime.js?ver=3.7.1' id='elementor-webpack-runtime-js'></script>
+<script  src='https://www.thelogistixco.com/wp-content/plugins/elementor/assets/js/frontend-modules.js?ver=3.7.1' id='elementor-frontend-modules-js'></script>
+<script  src='https://www.thelogistixco.com/wp-includes/js/dist/vendor/regenerator-runtime.js?ver=0.13.9' id='regenerator-runtime-js'></script>
+<script  src='https://www.thelogistixco.com/wp-includes/js/dist/vendor/wp-polyfill.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script  src='https://www.thelogistixco.com/wp-includes/js/dist/hooks.js?ver=c6d64f2cb8f5c6bb49caca37f8828ce3' id='wp-hooks-js'></script>
+<script  src='https://www.thelogistixco.com/wp-includes/js/dist/i18n.js?ver=ebee46757c6a411e38fd079a7ac71d94' id='wp-i18n-js'></script>
+<script  id='wp-i18n-js-after'>
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script  id='elementor-pro-frontend-js-before'>
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/www.thelogistixco.com\/wp-admin\/admin-ajax.php","nonce":"7ee733949c","urls":{"assets":"https:\/\/www.thelogistixco.com\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/www.thelogistixco.com\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/www.thelogistixco.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script  src='https://www.thelogistixco.com/wp-content/plugins/elementor-pro/assets/js/frontend.js?ver=3.7.3' id='elementor-pro-frontend-js'></script>
+<script  src='https://www.thelogistixco.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.js?ver=4.0.2' id='elementor-waypoints-js'></script>
+<script  src='https://www.thelogistixco.com/wp-content/plugins/elementor/assets/lib/swiper/swiper.js?ver=5.3.6' id='swiper-js'></script>
+<script  src='https://www.thelogistixco.com/wp-content/plugins/elementor/assets/lib/share-link/share-link.js?ver=3.7.1' id='share-link-js'></script>
+<script  src='https://www.thelogistixco.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.js?ver=4.9.0' id='elementor-dialog-js'></script>
+<script  id='elementor-frontend-js-before'>
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":true},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.7.1","is_static":false,"experimentalFeatures":{"e_hidden_wordpress_widgets":true,"theme_builder_v2":true,"favorite-widgets":true,"page-transitions":true,"notes":true,"e_scroll_snap":true},"urls":{"assets":"https:\/\/www.thelogistixco.com\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":0,"title":"Page not found - The Logistix Company","excerpt":""}};
+</script>
+<script  src='https://www.thelogistixco.com/wp-content/plugins/elementor/assets/js/frontend.js?ver=3.7.1' id='elementor-frontend-js'></script>
+<script  id='elementor-frontend-js-after'>
+"use strict";!function(e,t){e(t).on("elementor/frontend/init",(function(){var t,i=elementorModules.frontend.handlers.Base;t=i.extend({onInit:function(){i.prototype.onInit.apply(this,arguments),this.isHarakiri()&&(this.$element.addClass("ob-harakiri"),"clip"===this.getElementSettings("_ob_harakiri_text_clip")&&this.updateCSS("add"))},isHarakiri:function(){return"yes"===this.getElementSettings("_ob_use_harakiri")},onElementChange:function(e){"_ob_harakiri_writing_mode"===e&&("inherit"!==this.getElementSettings("_ob_harakiri_writing_mode")?this.$element.addClass("ob-harakiri"):this.$element.removeClass("ob-harakiri")),"_ob_harakiri_text_clip"===e&&("clip"===this.getElementSettings("_ob_harakiri_text_clip")?this.updateCSS("add"):""===this.getElementSettings("_ob_harakiri_text_clip")&&this.updateCSS("remove"))},updateCSS:function(e){"add"===e&&this.$element.find(".elementor-heading-title").css("background-clip","text").css("-webkit-text-fill-color","transparent"),"remove"===e&&this.$element.find(".elementor-heading-title").css("background-clip","unset").css("-webkit-text-fill-color","unset")}});var n={"heading.default":t,"text-editor.default":t};e.each(n,(function(e,t){elementorFrontend.hooks.addAction("frontend/element_ready/"+e,(function(e){elementorFrontend.elementsHandler.addHandler(t,{$element:e})}))}))}))}(jQuery,window);
+</script>
+<script  src='https://www.thelogistixco.com/wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.js?ver=3.7.3' id='pro-preloaded-elements-handlers-js'></script>
+<script  src='https://www.thelogistixco.com/wp-content/plugins/elementor/assets/js/preloaded-modules.js?ver=3.7.1' id='preloaded-modules-js'></script>
+<script  src='https://www.thelogistixco.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.js?ver=3.7.3' id='e-sticky-js'></script>
+
+</body>
+</html>

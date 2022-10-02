@@ -1,0 +1,9 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.bing.com	TRUE	/	FALSE	1999999999	MUID	275ADF1BBE676F0A33FFCD2ABFFC6EB8
+bat.bing.com	TRUE	/	FALSE	1999999999	Priority	High
+bat.bing.com	TRUE	/	FALSE	1999999999	MR	0
+bat.bing.com	TRUE	/	FALSE	1999999999	SameSite	None
+www.thelogistixco.com	TRUE	/	FALSE	1999999999	_wpjshd_session_	41ece8e6deef8d55a0a099bdc0b865c88650833%2F1664700670%2F1664702470
+www.thelogistixco.com	TRUE	/	FALSE	1999999999	jsst_ticket_search_data	deleted
+
